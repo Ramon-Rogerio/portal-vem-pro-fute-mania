@@ -1,0 +1,1 @@
+# Painel - Sistema de gerenciamento de campeonato de futebol
