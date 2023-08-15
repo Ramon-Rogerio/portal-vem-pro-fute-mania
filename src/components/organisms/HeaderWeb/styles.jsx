@@ -4,7 +4,7 @@ export const HeaderBetween = styled('header')(() => ({
     backgroundColor: '#0B60D1',
     display: 'flex',
     justifyContent: 'center',
-    paddingBottom: "-2px",
+    padding: "20px 0",
     zIndex: "2",
     boxShadow: '0px 1px 5px 0px rgba(45,45,45,0.75)',
 }));
