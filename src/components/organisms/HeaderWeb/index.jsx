@@ -1,3 +1,4 @@
+import SearchField from "../SerachForm";
 import { HeaderBetween, NavLinks } from "./styles";
 
 export default function HeaderSite(props) {
@@ -5,6 +6,7 @@ export default function HeaderSite(props) {
   return (
     
     <HeaderBetween>
+      <SearchField />
       <NavLinks>
         <ul>
             <li>Local de jogos</li>
@@ -14,6 +16,7 @@ export default function HeaderSite(props) {
             <li>Palpite</li>
         </ul>
       </NavLinks>
+      <SearchField />
     </HeaderBetween>
   );
 }
