@@ -1,4 +1,4 @@
-import Header from "../../components/organisms/Header";
+import Header from "../../components/organisms/Admin";
 
 export default function Contact() {
     return (
