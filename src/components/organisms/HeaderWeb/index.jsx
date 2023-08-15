@@ -3,6 +3,7 @@ import { HeaderBetween, NavLinks } from "./styles";
 export default function HeaderSite(props) {
   console.log(props);
   return (
+    
     <HeaderBetween>
       <NavLinks>
         <ul>
