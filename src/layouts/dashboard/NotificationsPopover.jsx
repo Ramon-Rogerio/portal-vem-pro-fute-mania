@@ -213,7 +213,7 @@ const NotificationsPopover = () => {
                 open={open}
                 onClose={handleClose}
                 anchorEl={anchorRef.current}
-                sx={{ width: 360 }}
+                sx={{ width: 360  }}
             >
                 <Box sx={{ display: 'flex', alignItems: 'center', py: 2, px: 2.5 }}>
                     <Box sx={{ flexGrow: 1 }}>
@@ -234,7 +234,7 @@ const NotificationsPopover = () => {
 
                 <Divider />
 
-                <Scrollbar sx={{ height: { xs: 340, sm: 'auto' } }}>
+                <Scrollbar sx={{ height: { xs: 340, sm: 200 }}} >
                     <List
                         disablePadding
                         subheader={
