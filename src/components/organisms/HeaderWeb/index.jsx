@@ -1,17 +1,20 @@
-import { HeaderBetween, NavLinks } from "./styles";
+import { HeaderBetween, NavLinks, UL } from "./styles";
 
 export default function HeaderSite(props) {
   console.log(props);
   return (
     <HeaderBetween>
       <NavLinks>
-        <ul>
-            <li>Local de jogos</li>
-            <li>Campeonatos</li>
-            <li>Notícias</li>
-            <li>Tabela de jogos</li>
-            <li>Palpite</li>
-        </ul>
+
+        <UL>
+
+          <lt>Local de jogos</lt>
+          <lt>Campeonatos</lt>
+          <lt>Notícias</lt>
+          <lt>Tabela de jogos</lt>
+          <lt>Palpite</lt>
+
+        </UL>
       </NavLinks>
     </HeaderBetween>
   );

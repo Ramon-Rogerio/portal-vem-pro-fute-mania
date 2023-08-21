@@ -12,3 +12,11 @@ export const NavLinks = styled('nav')(() => ({
         color: '#FFFFFF',
     }
 }));
+
+export const UL = styled('ul')(() => ({
+
+    justifyContent: 'space-around',
+    backgroundColor: '#0000CD',
+    color: '#DCDCDC',
+}));
+
