@@ -1,7 +1,15 @@
-import Routes from "./routes";
+import 'simplebar';
+import ScrollToTop from '@/components/atoms/ScrollToTop';
+import Router from "./routes";
+import ThemeConfig from '@/theme';
 
 function App() {
-  return <Routes />;
+  return (
+    <ThemeConfig>
+        <ScrollToTop />
+        <Router />
+    </ThemeConfig>
+);
 }
 
 export default App;

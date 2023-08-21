@@ -3,7 +3,9 @@ import { HeaderBetween, NavLinks, UL } from "./styles";
 export default function HeaderSite(props) {
   console.log(props);
   return (
+
     <HeaderBetween>
+      <SearchField />
       <NavLinks>
 
         <UL>
@@ -16,6 +18,7 @@ export default function HeaderSite(props) {
 
         </UL>
       </NavLinks>
+      <SearchField />
     </HeaderBetween>
   );
 }
