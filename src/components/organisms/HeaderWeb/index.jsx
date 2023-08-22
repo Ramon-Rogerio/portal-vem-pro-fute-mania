@@ -1,4 +1,5 @@
 import { HeaderBetween, NavLinks, UL } from "./styles";
+import SearchField from "../SerachForm"; 
 
 export default function HeaderSite(props) {
   console.log(props);
@@ -10,10 +11,10 @@ export default function HeaderSite(props) {
 
         <UL>
 
-          <lt>Local de jogos</lt>
-          <lt>Campeonatos</lt>
-          <lt>Notícias</lt>
-          <lt>Tabela de jogos</lt>
+          <li>Local de jogos</li>
+          <li>Campeonatos</li>
+          <li>Notícias</li>
+          <li>Tabela de jogos</li>
           <lt>Palpite</lt>
 
         </UL>
